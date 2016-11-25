@@ -1,3 +1,13 @@
+## Welcome on Uchidata SDK for python developpers
+
+# About Uchidata
+
+Uchidata is a Text-Mining API which provides state-of-the art algorithms for text classification.
+
+This repository presents 4 use cases which are free to use (ask for your free access on uchidata.com).
+
+Feel free to contact us if you need a specific model (contact@uchidata.com).
+
 # Welcome on Uchidata SDK for python developpers #
 
 This README will explain you how to send request to Uchidata API.
