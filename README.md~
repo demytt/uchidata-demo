@@ -6,9 +6,9 @@ Every request must have the following structure :
 
 ```json
 {
-  "key" : "your_api_key",
-  "model" : "model_to_request",
-  "observations" : [{"id":1, "content":"XXX"}, {"id":2, "content":"YYY"}, {"id":3, "content":"ZZZ"}]
+  "key":"your_api_key",
+  "model":"model_to_request",
+  "observations":[{"id":1, "content":"XXX"}, {"id":2, "content":"YYY"}, {"id":3, "content":"ZZZ"}]
 }
 ```
 
