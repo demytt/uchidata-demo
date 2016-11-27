@@ -5,25 +5,26 @@
 ```json
 [{"id": "123",
   "result": {"Dissatisfied": 0.148072,
-   "Neutral": 0.148072,
-   "Satisfied": 0.192547,
-   "Very Dissatisfied": 0.148072,
-   "Very Satisfied": 0.363238}},
+  	"Neutral": 0.148072,
+	"Satisfied": 0.192547,
+	"Very Dissatisfied": 0.148072,
+	"Very Satisfied": 0.363238}},
  {"id": "1",
   "result": {"Dissatisfied": 0.157292,
-   "Neutral": 0.167434,
-   "Satisfied": 0.186004,
-   "Very Dissatisfied": 0.182265,
-   "Very Satisfied": 0.307005}}
+	"Neutral": 0.167434,
+	"Satisfied": 0.186004,
+	"Very Dissatisfied": 0.182265,
+	"Very Satisfied": 0.307005}}
 ]
 ```
    
 ## Sentiment analysis
 
 ```json
-[
-{"id": "123", "result": {"negative": 0.344143, "positive": 0.655857}},
- {"id": "1", "result": {"negative": 0.577177, "positive": 0.422823}}
+[{"id": "123", 
+	"result": {"negative": 0.344143, "positive": 0.655857}},
+ {"id": "1", 
+ 	"result": {"negative": 0.577177, "positive": 0.422823}}
 ]
 ```
  
