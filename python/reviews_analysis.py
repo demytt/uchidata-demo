@@ -18,6 +18,6 @@ result = requests.get(uchidata_url + '/getPredictions', data=json.dumps(d))
 # Print result
 result_json = json.loads(result.content)
 
-print(result_json)
+print(json.dumps(result_json, indent=2, sort_keys=True))
 
 
