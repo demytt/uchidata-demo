@@ -16,11 +16,9 @@ d['observations'].append({'id':'2', 'content':'A number of popular websites like
 result = requests.get(uchidata_url + '/getPredictions', data=json.dumps(d))
 
 # Print result
-result_json = json.loads(result.content)
-
 try:
-    result_json = json.loads(r.content)
+    result_json = json.loads(result.content)
     print(json.dumps(result_json, indent=2, sort_keys=True))
 except Exception,e: 
-    print "Error : " + str(r.content)
+    print "Error : " + str(result.content)
 
