@@ -8,11 +8,9 @@ This repository presents 4 use cases which are free to use (ask for your free ac
 
 Feel free to contact us if you need a specific model (contact@uchidata.com).
 
-## Welcome on Uchidata SDK for python developpers #
+## How it works
 
-This README will explain you how to send request to Uchidata API.
-
-Every request must have the following structure :
+Every request must have the following format :
 
 ```json
 {
